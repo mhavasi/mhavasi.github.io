@@ -4,12 +4,12 @@
 
 .jumbotron {
     height: 65vh;
-    background-image: url('../assets/background.jpeg')
+    background-image: url('../assets/cambridge_faded.jpg')
 }
 
 .jumbotron h1,
 .jumbotron h2 {
-    color: #fff;
+    color: #000;
 }
 
 .content-section-b {
