@@ -3,8 +3,11 @@
 }
 
 .jumbotron {
-    height: 65vh;
-    background-image: url('../assets/cambridge_faded.jpg')
+    height: 50vh;
+    background-image: url('../assets/panorama_.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
 }
 
 .jumbotron h1,
