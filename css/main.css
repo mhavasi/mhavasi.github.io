@@ -3,8 +3,8 @@
 }
 
 .jumbotron {
-    height: 50vh;
-    background-image: url('../assets/panorama_.jpg');
+    height: 20vh;
+    background-image: url('../assets/rainbow.jpg');
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -29,8 +29,25 @@ footer {
 /* Three image containers (use 25% for four, and 50% for two, etc) */
 .column {
   float: left;
-  width: 50%;
+  width: 33%;
   padding: 5px;
+  font-size: large;
+}
+
+.doublecolumn {
+  float: left;
+  width: 66%;
+  padding: 5px;
+  font-size: large;
+  text-align: justify;
+}
+
+.fullcolumn {
+  float: left;
+  width: 100%;
+  padding: 5px;
+  font-size: large;
+  text-align: justify;
 }
 
 /* Clear floats after image containers */
@@ -41,8 +58,33 @@ footer {
 }
 
 .center {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: 50%;
+  float: center;
+  margin-left: 50px;
+  margin-right: 50px;
+  height: 250px;
 }
+
+#projects {
+    margin-top: 90px;
+
+}
+
+.timeline-image {
+  vertical-align: unset;
+  display: inline-block;
+}
+
+.timeline-text {
+  display: inline-block;
+  margin-left: 15px;
+}
+
+section {
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.timeline-item {
+  margin-top: 20px;
+}
+

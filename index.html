@@ -25,10 +25,16 @@
             <div class="collapse navbar-collapse" id="my-navbar-collapse">
                 <ul class="nav navbar-nav navbar-right">
                     <li>
-                        <a href="#about">Bio</a>
+                        <a href="#research">Research</a>
                     </li>
                     <li>
-                        <a href="#projects">Publications</a>
+                        <a href="#about">Experience</a>
+                    </li>
+                    <li>
+                        <a href="#teaching">Teaching</a>
+                    </li>
+                    <li>
+                        <a href="#publications">Publications</a>
                     </li>
                 </ul>
             </div>
@@ -38,76 +44,256 @@
     <header>
         <div class="jumbotron jumbotron-fluid">
             <div class="container">
-                <h1>Marton Havasi</h1>
-                <h2>PhD in Probabilistic Machine Learning, University of Cambridge</h2>
             </div>
         </div>
     </header>
 
-    <section id="about">
+
+    <section id="quickinfo">
         <div class="content-section-a">
             <div class="container">
-                <h1 style="text-align:center">Bio</h1>
-                <hr>
+                <h1 style="text-align:center">Marton Havasi</h1>
+		<hr> 
                 <div class="row">
 		  <div class="column">
-		    <img src="assets/photo.jpeg" style="width:60%"  class="center">
+		    <img src="assets/profile.jpg" class="center">
 		  </div>
-		  <div class="column">
+		  <div class="doublecolumn">
                     <p>
-                        I am currently a PhD student in the Computational Biological Learning Group at University of
-                        Cambridge (started in 2017) under the supervision of Dr. José Miguel Hernández-Lobato.
+                        I am a final year PhD student in Probabilistic Machine Learning at the University of
+                        Cambridge under the supervision of Dr. José Miguel Hernández-Lobato. My research focuses on model uncertainty in deep learning, which I apply to make models more robust and deployable, and to make them more compact and efficient.
                     </p>
                     <p>
-                        My current research focuses on Bayesian deep learning and its applications. I work on topics such as Bayesian neural
-networks, continual learning, variational inference and their connections to information theory and compression
-algorithms.
+                        I will be graduating in April 2021 and I am actively looking for <b>post-doctorate</b> or <b>industry researcher</b> positions.
+                    </p>
+			<p>Quick links: <a href="https://drive.google.com/file/d/1kVq8joq2z4ehzUXtpy0lAw2wTV0wMtmN/view?usp=sharing">CV</a>, <a href="https://scholar.google.com/citations?user=EaYZfmoAAAAJ&hl=en">Google scholar</a>,  <a href="https://uk.linkedin.com/in/marton-havasi">LinkedIn</a> 
+		</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <section id="research">
+        <div class="content-section-a">
+            <div class="container">
+                <h2 style="text-align:center">Research</h2>
+                <hr>
+                <div class="row">
+		  <div class="doublecolumn">
+                    <p>
+                        My research focuses on two connected areas. First, I am interested in Bayesian inference and <b>Bayesian deep learning</b> [<a href="#mimo">2</a>,<a href="#refining">3</a>,<a href="#dgp">6</a>]. I want to use Bayesian methods to understand model uncertainty in neural networks. Model uncertainty can then be used to build robust and deployable deep learning models that do not exhibit the typical failure modes, such as poor calibration and overconfident predictions of traditionally trained networks.
+                    </p>                    
+<p>
+                        Second, model uncertainty from Bayesian methods can be used to estimate the information stored within the neural network. We can use this to derive an efficient <b>model compression</b> algorithm, that can reduce the size of the network by a factor of 100 [<a href="#miracle">4</a>]. A similar approach can be applied to images, where we exploit uncertainty in their latent representations for effective lossless and lossy image compression [<a href="#comp">1</a>].
                     </p>
 		    <p>
-			<b>Past: 
-			</b>
-		</p>
-                    <p>
-                        I was born and raised in Budapest, Hungary. I did my undergraduate studies in Computer Science
-                        at University of Cambridge (2013-2016) followed by an MPhil in Machine Learning, Speech and Language
-                        Technology at University of Cambridge (2016-2017).
-			</p>
-                    <p>
-During my undergrad, I did two software engineering
-                        internships at Facebook, 2015 in Menlo Park, CA and 2016 in London UK.</p>
-                    <p>
-			In 2019, I spent the summer at Google Brain (Cambridge, MA) working on Bayesian neural networks with my host Jasper Snoek and my co-host Dustin Tran. 
+                        I also worked on Bayesian optimization with the goal of optimizing hardware accelerator design parameters [<a href="#bo">5</a>].
                     </p>
-                    <br /><br />
+		  </div>
+		  <div class="column">
+		    <img src="assets/photo.jpeg" class="center">
 		  </div>
                 </div>
             </div>
         </div>
     </section>
 
-    <section id="projects">
-        <div class="content-section-b">
+    <section id="about">
+        <div class="content-section-a">
             <div class="container">
-                <h1 style="text-align:center">Publication highlights</h1>
+                <h2 style="text-align:center">Experience</h2>
+                <hr>
+                <div class="row">
+		  <div class="fullcolumn">
+<p>
+<ul style="list-style-type:none;">
+<li>
+	<div class='timeline-item'>
+		<img class='timeline-image'  src="assets/uoc.jpg" width="50" height="50" float="left">
+		<div class='timeline-text'>
+			<p>
+			<i>October 2017 - April 2021, Cambridge, UK</i> <br/>
+			PhD in Probabilistic Machine Learning, University of Cambridge <br/>
+			Working on model uncertainty, robustness, model compression and image compression with José Miguel Hernández-Lobato.
+			</p>
+		</div>
+	</div>
+</li>
+<li>
+	<div class='timeline-item'>
+		<img class='timeline-image' src="assets/google.png" width="50" height="50" float="left">
+		<div class='timeline-text'>
+			<p>
+			<i>June 2020 - September 2020, Remote</i> <br/>
+			Research Intern, Google Health <br/>
+			Worked on robust and efficient ensemble models with Dustin Tran, Andrew M. Dai and Balaji Lakshminarayanan.
+			</p>
+		</div>
+	</div>
+</li>
+<li>
+	<div class='timeline-item'>
+		<img class='timeline-image'  src="assets/google.png" width="50" height="50" float="left">
+		<div class='timeline-text'>
+			<p>
+			<i>June 2019 - September 2019, Cambridge, MA</i> <br/>
+			Research Intern, Google Brain<br/>
+			Worked on Bayesian neural networks with Jasper Snoek and Dustin Tran.
+			</p>
+		</div>
+	</div>
+</li>
+<li>
+	<div class='timeline-item'>
+		<img  class='timeline-image' src="assets/uoc.jpg" width="50" height="50" float="left">
+		<div class='timeline-text'>
+			<p>
+			<i>October 2016 - August 2017, Cambridge, UK</i> <br/>
+			MPhil in Machine Learning, Speech and Language Technology, University of Cambridge <br/>
+			Thesis: Designing neural network hardware accelerators using deep Gaussian processes.
+			</p>
+		</div>
+	</div>
+</li>
+<li>
+	<div class='timeline-item'>
+		<img class='timeline-image' src="assets/fb.png" width="50" height="50" float="left">
+		<div class='timeline-text'>
+			<p>
+			<i>June 2016 - September 2016, London, UK</i> <br/>
+			Software Engineer Intern, Facebook <br/>
+			Working on locations on Facebook.
+			</p>
+		</div>
+	</div>
+</li>
+<li>
+	<div class='timeline-item'>
+		<img class='timeline-image' src="assets/uoc.jpg" width="50" height="50" float="left">
+		<div class='timeline-text'>
+			<p>
+			<i>October 2013 - June 2016, Cambridge, UK</i> <br/>
+			BA in Computer Science with Mathematics, University of Cambridge <br/>
+			Churchill College
+			</p>
+		</div>
+	</div>
+</li>
+<li>
+	<div class='timeline-item'>
+		<img class='timeline-image' src="assets/fb.png" width="50" height="50" float="left">
+		<div class='timeline-text'>
+			<p>
+			<i>June 2015 - September 2015, Menlo Park, CA</i> <br/>
+			Software Engineer Intern, Facebook <br/>
+			Working on news feed ads.</p>
+		</div>
+	</div>
+</li>
+<li>
+	<div class='timeline-item'>
+		<img class='timeline-image' src="assets/imo.png" width="50" height="50" float="left">
+		<div class='timeline-text'>
+			<p>
+			<i>June 2013, Colombia</i> <br/>
+			Participant at the International Mathematical Olympiad <br/>
+			Earned a Bronze Medal</p>
+		</div>
+	</div>
+</li>
+<li>
+	<div class='timeline-item'>
+		<img class='timeline-image' src="assets/ioi.png" width="50" height="50" float="left">
+		<div class='timeline-text'>
+			<p>
+			<i>June 2012, Italy</i> <br/>
+			Participant at the International Olypiad in Informatics <br/>
+			Earned a Silver Medal</p>
+		</div>
+	</div>
+</li>
+
+
+</ul>
+</p>
+<!--
+<h3>Short biography</h3>
+                    <p>
+                        My name is Marton Havasi, I am currently a PhD student in Probabilistic Machine Learning at the Computational Biological Learning Group at University of
+                        Cambridge (from 2017) under the supervision of Dr. José Miguel Hernández-Lobato. Before, I completed my MPhil in Machine Learning, Speech and Language Technology at Univeristy of Cambridge in 2017 and my BA in Computer Science with Mathematics at University of Cambridge in 2016. During my studies, I had two software engineering internships at Facebook and two research internships at Google Research. I spent my highschool years at Fazekas Mihaly Grammar school (Hungary), where I got the chance to participate in the International Mathematical Olympiad (2013, Bronze Medal) and the International Olympiad in Informatics (2012, Silver Medal).
+                    </p> -->
+		  </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="teaching">
+        <div class="content-section-a">
+            <div class="container">
+                <h2 style="text-align:center">Teaching</h2>
+                <hr>
+                <div class="row">
+		  <div class="fullcolumn">
+		  <p>Supervised courses: Discrete Mathematics, Artificial Intelligence.</p>
+		  <p>
+		  Dissertations:
+		  <ul>
+		  <li> Zoltan Molnar-Saska, Undergraduate dissertation: <br/> Training robust agents in cooperative multi-agent reinforcement learning. </li>	  
+		  <li> Gergely Flamich, MPhil dissertation: <br/> Compression without quanization. </li>
+		  <li> Tudor Paraschivescu, Undergraduate dissertation: <br/> Library for MIRACLE compression.</li>
+		  </ul></p>
+		  </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+
+
+    <section id="projects">
+        <div class="content-section-a">
+            <div class="container">
+                <h2 style="text-align:center">Publications</h2>
                 <hr>
                     <div class="row">
-                        <h3 class="section-heading">Refining the variational posterior using through iterative optimization, Under review</h3>
-                        <p> We prospose an algorithm for improving the expressivity of mean-field variational inference in Bayesian neural networks. Joint work with Jasper Snoek, Dustin Tran, Jonathan Gordon and José Miguel Hernández-Lobato.
+                        <h3 class="section-heading" id="comp">[1] Compressing Images by Encoding Their Latent Representations with Relative Entropy Coding, NeurIPS 2020</h3>
+                        <p> Gergely Flamich (joint first author), Marton Havasi (joint first author), José Miguel Hernández-Lobato <br/>
+We prospose an image compression algorithm based on relative entropy coding.
+
+                        <a href="https://arxiv.org/abs/2010.01185">Arxiv</a></p>
+                    </div>
+                    <div class="row">
+                        <h3 class="section-heading" id="mimo">[2] Training independent subnetwork for robust predictions, Under review</h3>
+                        <p>Marton Havasi, Rodolphe Jenatton, Stanislav Fort, Jeremiah Zhe Liu, Jasper Snoek, Balaji Lakshminarayanan, Andrew M. Dai, Dustin Tran <br/> We prospose an algorithm for training robust and efficient ensemble models.
+
+                        <a href="https://drive.google.com/file/d/1LwZrpPpkG9rW6tniz-BekQdlWceOukOK/view?usp=sharing">PDF</a></p>
+                    </div>
+                    <div class="row">
+                        <h3 class="section-heading" id="refining">[3] Refining the variational posterior using through iterative optimization, Under review</h3>
+                        <p> Marton Havasi, Jasper Snoek, Dustin Tran, Jonathan Gordon and José Miguel Hernández-Lobato <br/>
+We prospose an algorithm for improving the expressivity of mean-field variational inference in Bayesian neural networks. 
                         <a href="https://drive.google.com/file/d/1IVrdYppRyHc0Pvwsu4EnpWPQDzubwOP9/view?usp=sharing">PDF</a></p>
                     </div>
                     <div class="row">
-                        <h3 class="section-heading">Minimal Random Code Learning: Getting Bits Back from Compressed
+                        <h3 class="section-heading" id="miracle">[4] Minimal Random Code Learning: Getting Bits Back from Compressed
                             Model Parameters, ICLR 2019</h3>
-                        <p>We propose a non-deterministic compression method for neural networks that
-                            samples from a variational distribution. Joint work with Robert Peharz and
-                            José Miguel Hernández-Lobato.
+                        <p>Marton Havasi, Robert Peharz and José Miguel Hernández-Lobato <br/> We propose a non-deterministic compression method for neural networks that
+                            samples from a variational distribution. 
                         <a href="https://arxiv.org/abs/1810.00440">Arxiv</a></p>
                     </div>
+                    <div class="row">
+                        <h3 class="section-heading" id="bo">[5] Determining Optimal Coherency Interface for Many-Accelerator SoCs Using Bayesian Optimization, IEEE 2019</h3>
+                        <p>Kshitij Bhardwaj, Marton Havasi, Yuan Yao, David M Brooks, José Miguel Hernández Lobato, Gu-Yeon Wei
+                        <a href="https://par.nsf.gov/servlets/purl/10118988">PDF</a></p>
+                    </div>
                 <div class="row">
-                        <h3 class="section-heading">Inference in Deep Gaussian Processes using Stochastic Gradient
+                        <h3 class="section-heading" id="dgp">[6] Inference in Deep Gaussian Processes using Stochastic Gradient
                             Hamiltonian Monte Carlo, NeurIPS 2018</h3>
-                        <p>We applied an MCMC sampling method to do inference in deep Gaussian processes.
-                            Joint work with José Miguel Hernández-Lobato and Juan José Murillo Fuentes.
+                        <p>Marton Havasi, José Miguel Hernández-Lobato and Juan José Murillo Fuentes <br/>
+We applied an MCMC sampling method to do inference in deep Gaussian processes.
                         <a href="https://arxiv.org/abs/1806.05490">Arxiv</a></p>
                     </div>
                     <br /><br />
@@ -121,7 +307,19 @@ During my undergrad, I did two software engineering
                 <div class="col-lg-12">
                     <ul class="list-inline">
                         <li>
-                            <a href="#about">Bio</a>
+                            <a href="#">Home</a>
+                        </li>
+                        <li class="footer-menu-divider">&sdot;</li>
+                        <li>
+                            <a href="#research">Research</a>
+                        </li>
+                        <li class="footer-menu-divider">&sdot;</li>
+                        <li>
+                            <a href="#about">Experience</a>
+                        </li>
+                        <li class="footer-menu-divider">&sdot;</li>
+                        <li>
+                            <a href="#teaching">Teaching</a>
                         </li>
                         <li class="footer-menu-divider">&sdot;</li>
                         <li>
